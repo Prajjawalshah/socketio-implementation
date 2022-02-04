@@ -1,7 +1,6 @@
 {
   "name": "socketio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -15,5 +14,14 @@
     "node": "^17.4.0",
     "nodemon": "^2.0.15",
     "socket.io": "^4.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prajjawalshah/socketio-implementation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Prajjawalshah/socketio-implementation/issues"
+  },
+  "homepage": "https://github.com/Prajjawalshah/socketio-implementation#readme",
+  "description": ""
 }
