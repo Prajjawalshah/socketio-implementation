@@ -15,6 +15,7 @@ server.listen(3001 , ()=> {
 
 io.on("connection" , (socket)=>{
     console.log("user id" , socket.id);
+    console.log("user id" , socket.id);
 
     socket.on("message" , (data)=> {
         console.log(data)
